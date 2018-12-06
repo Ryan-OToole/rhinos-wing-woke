@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import SearchBar from '../containers/search_bar'
+import SearchBarRhino from '../containers/search_bar_rhino'
+import SearchBarWing from '../containers/search_bar_wing'
+import CreateForm from '../containers/create_form'
 
 
 class App extends Component {
   render() {
     return (
       <div>
-        <SearchBar /> 
+        <SearchBarRhino />
+        <SearchBarWing />
+        <CreateForm /> 
       </div>
     );
   }
